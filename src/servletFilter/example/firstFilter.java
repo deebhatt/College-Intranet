@@ -19,7 +19,7 @@ public class firstFilter implements Filter{
 	}
 
 	@Override
-	public void doFilter(ServletRequest arg0, ServletResponse arg1, FilterChain arg2) throws IOException,
+	public void doFilter(HttpServletRequest arg0, HttpServletResponse arg1, FilterChain arg2) throws IOException,
 			ServletException {
 		String clientIp = arg0.getRemoteAddr();
 		
